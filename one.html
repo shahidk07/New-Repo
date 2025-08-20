@@ -1,28 +1,21 @@
+<!-- Select all paragraphs and change 
+ their text color to blue
+  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
 <body>
-    <div class="subcontainer">
- <p>First paragraph</p>
-    <p>seconf para</p>
-    </div>
-     <button id="btn">
-  click it
-    </button>
-   <script>
-        // jQuery code goes here
-        $(document).ready(function() {
-          $(".subcontainer").html("<strong>New content added successfully!</strong>");
-          $("#btn").click(function() {
-    alert("Button clicked!");
+  <p>this is the furst oaragraph</p>
+  <p>second para </p>
+  <script>
+$(function(){
+$("p").css("color","blue")
 });
-        });
-    </script>
+  </script>
 </body>
-
 </html>
